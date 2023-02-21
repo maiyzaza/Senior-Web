@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    border-radius: 5px;
+}
+    
+.wrapper {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 60rem;
+    border-radius: 5px;
+    gap: 5px;
+    margin-left: 22rem;
+    position: relative;
+    top: 2.5rem;
+}
+
+.flex-container > div{
+    background: #ffecb3; 
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.backgroundImg {   
+    background-image: url(../../../../assets/maldives.png);
+    width: 100vw;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.text-topic {
+    margin-top: -38.5rem;
+    margin-left: 22rem;
+    font-size: 40px;
+    text-align: left !important;
+    /* position: flex; */
+}
+
+.creat-room-button {
+    background-color: red;
+    margin-top: 3rem;
+    margin-left: 65rem;
+    /* left: 20rem; */
+    font-size: 15px;
+    text-align: left !important;
+}

@@ -1,0 +1,56 @@
+.login-background {
+    background-image: url('../../assets/login-background.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-background-topper {
+    background-color: rgba(23, 23, 23, 0.7);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card {
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.align-center {
+    
+}
+.align-left {
+    left: 5vw;
+}
+
+.label {
+    color: rgb(0, 0, 165);
+}
+
+.logo {
+    /* size: 20px; */
+    height: auto;
+    width: 200px;
+    align-self: center;
+}
+
+.login-btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: #364CC4;
+}
